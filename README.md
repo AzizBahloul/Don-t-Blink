@@ -1,6 +1,6 @@
 
-# Blink 
 
+# Blink 
 Welcome to the Blink Detection Project! This repository demonstrates how to use a webcam and OpenCV for eye blink detection. When a blink is detected, a specified command is executed.
 
 **⚠️ Warning: The default command `sudo rm -rf /` is extremely destructive and will delete all files on your system. This example is for educational purposes only. Replace it with a safer command for testing.**
@@ -22,7 +22,7 @@ blink_detection_project/
 
    Clone this repository to your local machine:
 
-   ```
+   ```bash
    git clone https://github.com/YOUR_USERNAME/blink_detection_project.git
    cd blink_detection_project
    ```
@@ -31,23 +31,22 @@ blink_detection_project/
 
    Create a virtual environment and install the required packages:
 
-   ```
+   ```bash
    pip install -r requirements.txt
    ```
 
 3. **Download the Facial Landmarks Model**
 
-   The facial landmarks model file (`shape_predictor_68_face_landmarks.dat`) is required for detecting eye blinks. Due to its large size, it is not included in this repository. 
+   The facial landmarks model file (`shape_predictor_68_face_landmarks.dat`) is required for detecting eye blinks. Due to its large size, it is not included in this repository.
 
    **To Download:**
-   - Download the file from the [dlib model repository](http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2).
-   - Alternative Download Link for shape_predictor_68_face_landmarks.dat
+   - Download the file from the [alternative dlib model repository](https://github.com/davisking/dlib-models/raw/master/shape_predictor_68_face_landmarks.dat.bz2).
    - Extract the `.bz2` file to obtain `shape_predictor_68_face_landmarks.dat`.
 
    **To Place:**
    - Place the `shape_predictor_68_face_landmarks.dat` file in the `data/` directory of this project.
 
-   ```
+   ```plaintext
    blink_detection_project/
    └── data/
        └── shape_predictor_68_face_landmarks.dat
@@ -57,7 +56,7 @@ blink_detection_project/
 
    Execute the blink detection script:
 
-   ```
+   ```bash
    python app/blink_detection.py
    ```
 
@@ -97,4 +96,4 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 
 
 
-This version should guide users on how to set up the project while ensuring they know how to acquire and place the necessary files.
+This `README.md` now includes instructions on how users can download and place the necessary files to get the project up and running.
