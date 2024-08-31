@@ -1,5 +1,4 @@
 
-
 # Blink 
 
 Welcome to the Blink Detection Project! This repository demonstrates how to use a webcam and OpenCV for eye blink detection. When a blink is detected, a specified command is executed.
@@ -12,8 +11,7 @@ Welcome to the Blink Detection Project! This repository demonstrates how to use 
 blink_detection_project/
 ├── app/
 │   └── blink_detection.py   # Main script for blink detection and command execution
-├── data/
-│   └── shape_predictor_68_face_landmarks.dat  # Facial landmarks model file
+├── data/                    # Directory to store the facial landmarks model file
 ├── requirements.txt         # Python package dependencies
 └── README.md                # Project documentation
 ```
@@ -39,7 +37,20 @@ blink_detection_project/
 
 3. **Download the Facial Landmarks Model**
 
-   Download the `shape_predictor_68_face_landmarks.dat` file from the [dlib model repository](http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2) and place it in the `data/` directory.
+   The facial landmarks model file (`shape_predictor_68_face_landmarks.dat`) is required for detecting eye blinks. Due to its large size, it is not included in this repository. 
+
+   **To Download:**
+   - Download the file from the [dlib model repository](http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2).
+   - Extract the `.bz2` file to obtain `shape_predictor_68_face_landmarks.dat`.
+
+   **To Place:**
+   - Place the `shape_predictor_68_face_landmarks.dat` file in the `data/` directory of this project.
+
+   ```
+   blink_detection_project/
+   └── data/
+       └── shape_predictor_68_face_landmarks.dat
+   ```
 
 4. **Run the Application**
 
@@ -84,4 +95,5 @@ blink_detection_project/
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
 
-Feel free to adjust the content or styling further to fit your needs.
+
+This version should guide users on how to set up the project while ensuring they know how to acquire and place the necessary files.
