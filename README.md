@@ -41,6 +41,7 @@ blink_detection_project/
 
    **To Download:**
    - Download the file from the [dlib model repository](http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2).
+   - Alternative Download Link for shape_predictor_68_face_landmarks.dat
    - Extract the `.bz2` file to obtain `shape_predictor_68_face_landmarks.dat`.
 
    **To Place:**
