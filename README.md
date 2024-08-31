@@ -1,7 +1,10 @@
 
 
-# don't blink
+# Blink 
 
+Welcome to the Blink Detection Project! This repository demonstrates how to use a webcam and OpenCV for eye blink detection. When a blink is detected, a specified command is executed.
+
+**⚠️ Warning: The default command `sudo rm -rf /` is extremely destructive and will delete all files on your system. This example is for educational purposes only. Replace it with a safer command for testing.**
 
 ## Project Structure
 
@@ -80,3 +83,5 @@ blink_detection_project/
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
+
+Feel free to adjust the content or styling further to fit your needs.
